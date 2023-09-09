@@ -37,10 +37,6 @@ ebr_system_id:              db 'FAT12   '           ; 8 bytes
 ;
 
 start:
-    jmp main
-
-
-main:
   ; setup data segments
   mov ax, 0       ; can't write to ds/es directly
   mov ds, ax

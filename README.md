@@ -10,11 +10,11 @@
 
 For Linux
 
-> `apt install make nasm qemu`
+> `apt install make nasm qemu mtools gcc dosfstools`
 
 For MacOs
 
-> `brew install make nasm qemu`
+> `brew install make nasm qemu mtools gcc dosfstools`
 
 For windows use WSL
 
@@ -23,3 +23,14 @@ For windows use WSL
 In the project folder
 
 `make && qemu-system-i386 -fda build/main_floppy.img`
+
+
+## Tools  
+
+Okteta
+
+`sudo snap install okteta`
+
+bochs
+
+`sudo apt install bochs bochs-sdl bochsbios vgabios`
