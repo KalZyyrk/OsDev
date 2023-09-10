@@ -1,1 +1,10 @@
-{}
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "memdefs.h": "c",
+    "fat.h": "c",
+    "stdint.h": "c",
+    "disk.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
+}
