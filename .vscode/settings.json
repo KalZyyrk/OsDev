@@ -1,10 +1,13 @@
 {
   "files.associations": {
+    "*.page-template": "vue",
+    "*.layout-template": "vue",
+    "*.vue": "vue",
     "stdio.h": "c",
     "memdefs.h": "c",
     "fat.h": "c",
     "stdint.h": "c",
-    "disk.h": "c"
-  },
-  "C_Cpp.errorSquiggles": "disabled"
+    "disk.h": "c",
+    "memory.h": "c"
+  }
 }
